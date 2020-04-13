@@ -1,0 +1,20 @@
+{
+  "name": "@todos/backend",
+  "version": "0.1.0",
+  "description": "Todos App Backend",
+  "main": "app.js",
+  "author": "khiemleo <lethienkhiem1111@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.5"
+  },
+  "scripts": {
+    "serve": "node ./src/app.js",
+    "kill": "sudo kill -9 $(sudo lsof -t -i:3000)"
+  }
+}
